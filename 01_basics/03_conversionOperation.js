@@ -46,3 +46,30 @@ let stringSomeNumber = String(someNumber); // conversion of number to string
 
 console.log(stringSomeNumber) // "33"
 console.log(typeof stringSomeNumber);
+
+
+
+
+// ************************************* Operations ****************************************
+
+
+// what is Operations? Operations are the actions that can be performed on variables or expressions. They are used to manipulate data and perform calculations. The operations can be arithmetic, comparison, logical, or assignment operations. Arithmetic operations include addition, subtraction, multiplication, division, and modulus. Comparison operations include equal to, not equal to, greater than, less than, greater than or equal to, and less than or equal to. Logical operations include AND, OR, and NOT. Assignment operations include assigning a value to a variable using the assignment operator (=) or compound assignment operators (+=, -=, *=, /=, %=).
+
+let value = 5;
+let negvalue = -value; // negitive value of value
+
+console.log(negvalue) // -5
+console.log(typeof negvalue);
+
+console.log(5 +3) // Addition operation. It will return 8. Addition operation is used to add two or more numbers together. It can also be used to concatenate strings together.
+
+console.log(5 - 3) // Subtraction operation. It will return 2. Subtraction operation is used to subtract one number from another number.
+
+console.log(5 * 3) // Multiplication operation. It will return 15. Multiplication operation is used to multiply two or more numbers together.
+
+console.log(3 ** 4) // Exponentiation operation. It will return 81. Exponentiation operation is used to raise a number to the power of another number.
+
+console.log(5 / 3) // Division operation. It will return 1.6666666666666667. Division operation is used to divide one number by another number.
+
+console.log(5 % 3) // Modulus operation. It will return 2. Modulus operation is used to find the remainder of a division operation.
+
