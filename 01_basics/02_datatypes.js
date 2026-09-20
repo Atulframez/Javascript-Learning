@@ -53,3 +53,8 @@ console.log(typeof symbolVar) // It will return "symbol" because symbolVar is a 
 
 // How many data types are there in JS? There are 7 primitive data types and 3 non-primitive data types in JavaScript. The primitive data types are: string, number, boolean, undefined, null, symbol, and BigInt. The non-primitive data types are: object, array, and function.
 
+console.log(typeof "Atul");  // It will return "string" because "Atul" is a string data type.
+
+// What is typeof operator? The typeof operator is a unary operator that returns a string indicating the type of the unevaluated operand. It is used to determine the data type of a variable or an expression. The typeof operator can be used with any data type, including primitive and non-primitive data types.
+
+// what is bacisally use of typeof operator? The basic use of the typeof operator is to determine the data type of a variable or an expression. It can be used to check the type of a variable before performing operations on it, to ensure that the variable is of the expected type. It can also be used for debugging purposes, to check the types of variables in a program.
