@@ -31,5 +31,9 @@ console.log(typeof state)
 
 console.log(typeof bigNumber)
 
+// What is null? Null is a special value that represents the absence of any object value. It is used to indicate that a variable has no value or that an object property does not exist. It is often used as a placeholder for an object that will be assigned later.
 
+let nullVar = null // It is a null data type. Null is used to represent the absence of any object value.
+
+console.log(typeof nullVar) // It will return "object" because null is considered an object in JavaScript. This is a known quirk of the language and has been present since its early days. However, it is important to note that null is not actually an object, but rather a primitive value that represents the absence of any object value.
 
