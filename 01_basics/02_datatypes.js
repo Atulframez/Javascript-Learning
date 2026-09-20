@@ -37,3 +37,19 @@ let nullVar = null // It is a null data type. Null is used to represent the abse
 
 console.log(typeof nullVar) // It will return "object" because null is considered an object in JavaScript. This is a known quirk of the language and has been present since its early days. However, it is important to note that null is not actually an object, but rather a primitive value that represents the absence of any object value.
 
+// What is symbol? Symbol is a primitive data type that represents a unique and immutable value. It is often used as a key for object properties to avoid name collisions. Each time you create a new symbol, it is guaranteed to be unique.
+
+let symbolVar = Symbol("Atul") // It is a symbol data type. Symbol is used to represent a unique and immutable value.
+
+console.log(typeof symbolVar) // It will return "symbol" because symbolVar is a symbol data type.
+
+// And this is all the primitive data types in JavaScript.
+
+// What is primitives data types? Primitive data types are the most basic data types in JavaScript. They are immutable, meaning their values cannot be changed once they are created. The primitive data types in JavaScript are: string, number, boolean, undefined, null, symbol, and BigInt.
+
+// What is non-primitives data types? Non-primitive data types are more complex data types in JavaScript. They are mutable, meaning their values can be changed after they are created. The non-primitive data types in JavaScript are: object, array, and function.
+
+// For example, an object is a non-primitive data type that can store multiple values as key-value pairs. An array is a non-primitive data type that can store multiple values in an ordered list. A function is a non-primitive data type that can be called to perform a specific task.
+
+// How many data types are there in JS? There are 7 primitive data types and 3 non-primitive data types in JavaScript. The primitive data types are: string, number, boolean, undefined, null, symbol, and BigInt. The non-primitive data types are: object, array, and function.
+
