@@ -32,3 +32,17 @@ let booleanIsLoggedIn = Boolean(isLoggedIn); // conversion of boolean to number
 
 console.log(booleanIsLoggedIn) // 1
 console.log(typeof booleanIsLoggedIn);
+
+let isLoggedIn2 = 0;
+
+let booleanIsLoggedIn2 = Boolean(isLoggedIn2); // conversion of boolean to number
+
+console.log(booleanIsLoggedIn2) // 0
+console.log(typeof booleanIsLoggedIn2);
+
+let someNumber = 33;
+
+let stringSomeNumber = String(someNumber); // conversion of number to string
+
+console.log(stringSomeNumber) // "33"
+console.log(typeof stringSomeNumber);
