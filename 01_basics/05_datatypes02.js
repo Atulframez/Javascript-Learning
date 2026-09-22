@@ -47,3 +47,11 @@ console.log(id);
 console.log(anotherId);
 
 console.log(id === anotherId);
+
+
+const bigNumber = 33409022205;
+
+console.log(bigNumber);
+console.log(typeof bigNumber);
+
+// const bigNumber = 2323234587569n;  "n" is convert the number in Bigint.
