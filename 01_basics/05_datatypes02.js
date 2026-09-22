@@ -10,6 +10,6 @@
 
 // Non-primitives data types are call by reference. It means that when we assign a non-primitive value to a variable, the variable stores a reference to the value of the non-primitive data types. When we assign a non-primitive value to another variable, the new variable gets a reference to the same value, and any changes made to the new variable affect the orginal variables. 
 
-
+// What is Object ? Objects are variables that can store both values and functions. Objects are one of the most important concepts in JavaScript. If you understand objects, you understand JavaScript. 
 
 
