@@ -33,7 +33,7 @@ const outsideTemp = null;
 
 console.log(outsideTemp);
 
-let userEmail; 
+let userEmail;
 
 // we so write like this = let userEmail = undefined;
 
@@ -55,3 +55,14 @@ console.log(bigNumber);
 console.log(typeof bigNumber);
 
 // const bigNumber = 2323234587569n;  "n" is convert the number in Bigint.
+
+// Array , Object, Functions 
+
+// what is array in js? Array are those which are used to store multiple values in a single variable.
+
+// what is object? Object is a collection of key-value pairs.
+
+// what is Function? Functions are those which are used to perform a specific task. 
+
+
+
