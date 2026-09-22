@@ -13,3 +13,37 @@
 // What is Object ? Objects are variables that can store both values and functions. Objects are one of the most important concepts in JavaScript. If you understand objects, you understand JavaScript. 
 
 
+const score = 100;
+
+console.log(score);
+
+// const score = false; - - - console.log(score); 
+
+
+const scoreValue = 100.3;
+
+console.log(scoreValue);
+
+
+const isLoggedIn = false;
+
+console.log(isLoggedIn);
+
+const outsideTemp = null;
+
+console.log(outsideTemp);
+
+let userEmail; 
+
+// we so write like this = let userEmail = undefined;
+
+
+console.log(userEmail);
+
+const id = Symbol("123");
+const anotherId = Symbol('123');
+
+console.log(id);
+console.log(anotherId);
+
+console.log(id === anotherId);
