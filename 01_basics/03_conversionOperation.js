@@ -26,7 +26,7 @@ console.log(valueInNumber);
 // true =>1 , false => 0 
 
 
-let isLoggedIn = 1; 
+let isLoggedIn = 1;
 
 let booleanIsLoggedIn = Boolean(isLoggedIn); // conversion of boolean to number
 
@@ -61,7 +61,7 @@ let negvalue = -value; // negative value of value
 console.log(negvalue) // -5
 console.log(typeof negvalue);
 
-console.log(5 +3) // Addition operation. It will return 8. Addition operation is used to add two or more numbers together. It can also be used to concatenate strings together.
+console.log(5 + 3) // Addition operation. It will return 8. Addition operation is used to add two or more numbers together. It can also be used to concatenate strings together.
 
 console.log(5 - 3) // Subtraction operation. It will return 2. Subtraction operation is used to subtract one number from another number.
 
@@ -90,7 +90,7 @@ console.log(1 + 2 + "2");
 // ToPrimitive is input[, preferredType] => output. because it takes input and preferredType and returns output. It is used to convert an object to a primitive value when an operation is performed on the object. The input is the object that is being converted, the preferredType is the type of primitive value that is desired, and the output is the primitive value that is returned. The preferredType can be either "String" or "number". If the preferredType is "String", the ToPrimitive operation will return a string representation of the object. If the preferredtype is "number", the ToPrimitive operation will return a number representations of the object. If the preferredType is not specified, the ToPrimitive operation will return a number representation of the object by default.
 
 
-console.log( (3 +2) * 2 % 3); // it is the best way to write a code. Or represent the code in a better way.
+console.log((3 + 2) * 2 % 3); // it is the best way to write a code. Or represent the code in a better way.
 
 console.log(+true) // it will return 1. because true is a boolean value and it is converted to number using ToPrimitive operation. The ToPrimitive operation converts the boolean value to a number value. The boolean value true is converted to the number value 1, and the boolean value false is converted to the number value 0.
 
@@ -100,26 +100,26 @@ console.log(+"") // it will return 0. because empty string is a string value and
 
 
 let num1, num2, num3;
- num1 = num2 = num3 = 2 + 2;
+num1 = num2 = num3 = 2 + 2;
 
 
- let gameCounter = 100;
+let gameCounter = 100;
 
-    gameCounter++; // it will increment the value of gameCounter by 1. It is used to increase the value of a variable by 1. It can also be used to decrease the value of a variable by 1 using the -- operator.
-    
-    // It is also called as a Postfix Increment Operator. It is used to increase the value of a variable by 1 after the current operation is performed. It can also be used to decrease the value of a variable by 1 after the current operation is performed using the -- operator.
+gameCounter++; // it will increment the value of gameCounter by 1. It is used to increase the value of a variable by 1. It can also be used to decrease the value of a variable by 1 using the -- operator.
 
-    gameCounter--; // it will decrement the value of gameCounter by 1. It is used to decrease the value of a variable by 1. It can also be used to increase the value of a variable by 1 using the ++ operator.
+// It is also called as a Postfix Increment Operator. It is used to increase the value of a variable by 1 after the current operation is performed. It can also be used to decrease the value of a variable by 1 after the current operation is performed using the -- operator.
 
-    ++gameCounter; // it will increment the value of gameCounter by 1. It is used to increase the value of a variable by 1 before the current operation is performed. It can also be used to decrease the value of a variable by 1 before the current operation is performed using the -- operator.
+gameCounter--; // it will decrement the value of gameCounter by 1. It is used to decrease the value of a variable by 1. It can also be used to increase the value of a variable by 1 using the ++ operator.
 
-    // It is also called as a Prefix Increment Operator. It is used to increase the value of a variable by 1 before the current operation is performed. It can also be used to decrease the value of a variable by 1 before the current operation is performed using the -- operator.
+++gameCounter; // it will increment the value of gameCounter by 1. It is used to increase the value of a variable by 1 before the current operation is performed. It can also be used to decrease the value of a variable by 1 before the current operation is performed using the -- operator.
 
-    --gameCounter; // it will decrement the value of gameCounter by 1. It is used to decrease the value of a variable by 1 before the current operation is performed. It can also be used to increase the value of a variable by 1 before the current operation is performed using the ++ operator.
+// It is also called as a Prefix Increment Operator. It is used to increase the value of a variable by 1 before the current operation is performed. It can also be used to decrease the value of a variable by 1 before the current operation is performed using the -- operator.
 
-    // It is also called as a Prefix Decrement Operator. It is used to decrease the value of a variable by 1 before the current operation is performed. It can also be used to increase the value of a variable by 1 before the current operation is performed using the ++ operator.
-    
+--gameCounter; // it will decrement the value of gameCounter by 1. It is used to decrease the value of a variable by 1 before the current operation is performed. It can also be used to increase the value of a variable by 1 before the current operation is performed using the ++ operator.
 
-    
-    console.log(gameCounter); 
+// It is also called as a Prefix Decrement Operator. It is used to decrease the value of a variable by 1 before the current operation is performed. It can also be used to increase the value of a variable by 1 before the current operation is performed using the ++ operator.
+
+
+
+console.log(gameCounter);
 

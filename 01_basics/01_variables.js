@@ -9,7 +9,7 @@ let accountState;
 // accountId = 2 // Not allowed because accountId is a constant. 
 
 // What is scpoe? Scope is the current context of code, which determines the accessibility of variables to JavaScript.
-    
+
 /*
 Prefer not to use var, because it has a function scope. Use let and const instead, because they have block scope.
 and block scope is more predictable than function scope.

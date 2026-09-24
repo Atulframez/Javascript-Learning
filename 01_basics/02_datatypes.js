@@ -2,10 +2,10 @@
 
 // Treat al JS code as newer version of JS. 
 
- // alert("Hello World")  // alert is a function that displays an alert box with a specified message and an OK Button. It is used to display information to the user.
+// alert("Hello World")  // alert is a function that displays an alert box with a specified message and an OK Button. It is used to display information to the user.
 // we are using node.js, not a browser, so alert will not work here.
 
-console.log( 3+ 5) // console.log is a function that prints the output to the console. It is used to display information to the user.
+console.log(3 + 5) // console.log is a function that prints the output to the console. It is used to display information to the user.
 
 
 let name = "Atul" // It is a string data type. String is a sequence of characters. It is used to represent text. It is enclosed in single quotes, double quotes, or backticks.
