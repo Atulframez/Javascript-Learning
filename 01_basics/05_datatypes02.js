@@ -97,7 +97,38 @@ console.log(typeof myFunction);
 // +++++++++++++++++++++++++++++++++++++++++ Stack And Heap +++++++++++++++++++++++++++++++++
 
 
-// Stack is a premetive data types. 
+// Stack is a premetive data types. when we use stack we get copy of variables. 
+// What is Stack ? Stack is a data structure that follows the last-in-first-out (LIFO) principle.
 
-// Heap is a non-premetive data types.
+// Heap is a non-premetive data types. when we use heap we get reference of variables.
+// What is Heap ? Heap is a data structure that stores data in a tree-like structure.
+// Which principle is used in heap? Heap is based on the FIFO (First-In-First-Out) principle. 
 
+// Example: Of Stack when we stores variables in stack we get copy of variables.
+
+let myName = "Atul Anand";
+
+let anotherName = myName;
+anotherName = "Roy";
+
+console.log(myName);
+console.log(anotherName);
+
+// Advance Data Types 
+
+let userOne = {
+    email: "user@google.com",
+    upi: "userupi@ybl"
+}
+
+console.log(userOne.email);
+console.log(userOne.upi);
+
+// Example: Of Heap when we stores variables in heap we get reference of variables. 
+
+let userTwo = userOne;
+
+userTwo.email = "usertow@google.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
